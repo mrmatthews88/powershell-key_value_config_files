@@ -13,8 +13,8 @@ $myconfig.set("keyname", "value")
 
 ## Learning Resources
 - Making objects with functions (Class?) 
--- https://social.technet.microsoft.com/wiki/contents/articles/7804.powershell-creating-custom-objects.aspx
+ - https://social.technet.microsoft.com/wiki/contents/articles/7804.powershell-creating-custom-objects.aspx
 - Hash Tables 
--- https://4sysops.com/archives/the-powershell-hash-table/
+ - https://4sysops.com/archives/the-powershell-hash-table/
 - Export-ModuleMember
--- https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/export-modulemember?view=powershell-6
+ - https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/export-modulemember?view=powershell-6
