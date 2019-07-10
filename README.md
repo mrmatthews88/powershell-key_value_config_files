@@ -14,6 +14,9 @@ $myconfig.get("keyname")
 ```powershell
 $myconfig.set("keyname", "value")
 ```
+Due to how the function is saving the data, when you set a variable if either the key or the config file does not exist it will be created.
+
+
 ## Learning Resources
 - Making objects with functions (Class?) 
   - https://social.technet.microsoft.com/wiki/contents/articles/7804.powershell-creating-custom-objects.aspx
