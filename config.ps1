@@ -34,5 +34,3 @@
     $config.load()
     return $config
 }
-
-$myconfig = Get-Config -filePath ".\Desktop\config.txt"
