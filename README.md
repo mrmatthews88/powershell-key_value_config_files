@@ -10,3 +10,7 @@ $myconfig.get("keyname")
 
 ## to set a variable in the config run
 $myconfig.set("keyname", "value")
+
+## Learning Resources
+- Making objects with functions (Class?) https://social.technet.microsoft.com/wiki/contents/articles/7804.powershell-creating-custom-objects.aspx
+- Hash Tables https://4sysops.com/archives/the-powershell-hash-table/
