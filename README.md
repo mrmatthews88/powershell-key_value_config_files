@@ -1,6 +1,6 @@
 # powershell-key_value_config_files
 
-With the .ps file included assign the config object into a variable like so
+With the .ps1 file included assign the config object into a variable like so
 
 ```powershell
 $myconfig = Get-Config -filePath ".\Desktop\config.txt"
