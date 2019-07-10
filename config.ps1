@@ -1,7 +1,7 @@
 ﻿Function Get-Config([string]$filePath) {
 
     $config = New-Module -AsCustomObject -ScriptBlock {
-        [string]$path = null
+        [string]$path = ""
         [hashTable]$settings=@{}
         Function load () {
             (get-content $path) | % { 
