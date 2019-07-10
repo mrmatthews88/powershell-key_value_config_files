@@ -1,7 +1,7 @@
 ﻿Function Get-Config([string]$filePath) {
 
     $config = New-Module -AsCustomObject -ScriptBlock {
-        [string]$path = ".\Desktop\nnnn.txt"
+        [string]$path = null
         [hashTable]$settings=@{}
         Function load () {
             (get-content $path) | % { 
